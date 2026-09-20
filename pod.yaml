@@ -3,11 +3,10 @@ kind: pod
 
 Metadata:
   name: nginx
-
-labels:
-  project: roboshop
-  environment: dev
-  purpose: poc
+  labels:
+    project: roboshop
+    environment: dev
+    purpose: poc
 
 spec:
   containers:

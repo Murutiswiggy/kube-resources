@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 
-Metadata:
+metadata:
   name: new
   labels:
     project: roboshop

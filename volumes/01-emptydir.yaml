@@ -15,3 +15,5 @@ spec:
   volumes:
     - name: nginx-logs
       emptyDir: {}
+       
+  

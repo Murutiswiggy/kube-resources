@@ -41,6 +41,6 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: ebs-static
+      claimName: ebs-static-pv
   nodeSelector:
     topology.kubernetes.io/zone: us-east-1d

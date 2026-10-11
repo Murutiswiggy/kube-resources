@@ -21,7 +21,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: ""  # Must match the PV storageClassName
+  storageClassName: "ebs-sc"  # Must match the PV storageClassName
   volumeName: ebs-static-pv # Must match the exact name of the PV
   resources:
     requests:
